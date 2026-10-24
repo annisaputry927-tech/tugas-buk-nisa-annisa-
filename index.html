@@ -1,0 +1,286 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootsrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+  </head>
+  <body>
+  <div class="container">
+    </div>
+
+   <!-- Navbar Bootstrap -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+        <div class="container">
+            <a class="navbar-brand fw-bold text-primary" href="#home">
+                Cinta CV
+            </a>
+            <button class="navbar-toggler" type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarMenu"
+                aria-controls="navbarMenu"
+                aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarMenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active text-dark" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="#menu">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="#kontak">Kontak</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+  <!-- CAROUSEL FOTO -->
+<div id="carouselExampleRide" class="carousel slide mb-4"
+     data-bs-ride="carousel" data-bs-interval="3000">
+
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="cinta1.jpeg" class="d-block mx-auto"
+                 style="width:50%; height:350px; object-fit:cover;"
+                 alt="Foto 1">
+        </div>
+
+        <div class="carousel-item">
+            <img src="cinta2.jpeg" class="d-block mx-auto"
+                 style="width:50%; height:350px; object-fit:cover;"
+                 alt="Foto 2">
+        </div>
+
+        <div class="carousel-item">
+            <img src="cinta3.jpeg" class="d-block mx-auto"
+                 style="width:50%; height:350px; object-fit:cover;"
+                 alt="Foto 3">
+        </div>
+    </div>
+
+    <div class="carousel-indicators position-static mt-3">
+        <button type="button" data-bs-target="#carouselExampleRide"
+                data-bs-slide-to="0" class="active bg-dark"
+                aria-label="Foto 1" aria-current="true"></button>
+        <button type="button" data-bs-target="#carouselExampleRide"
+                data-bs-slide-to="1" class="bg-dark"
+                aria-label="Foto 2"></button>
+        <button type="button" data-bs-target="#carouselExampleRide"
+                data-bs-slide-to="2" class="bg-dark"
+                aria-label="Foto 3"></button>
+    </div>
+
+    <button class="carousel-control-prev" type="button"
+            data-bs-target="#carouselExampleRide" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon bg-dark rounded"></span>
+        <span class="visually-hidden">Sebelumnya</span>
+    </button>
+
+    <button class="carousel-control-next" type="button"
+            data-bs-target="#carouselExampleRide" data-bs-slide="next">
+        <span class="carousel-control-next-icon bg-dark rounded"></span>
+        <span class="visually-hidden">Selanjutnya</span>
+  </button>
+</div>
+
+
+  <h1 id="about" class="text-center my-4">
+    Cinta Nur Aisyah</h1>
+
+<section id="about-footer" class="container py-5">
+<section id="about-footer" class="container py-5">
+    <div class="row align-items-center g-2">
+
+
+        <div class="col-7">
+            <h2 class="mb-3">Tentang Saya</h2>
+
+            <p>
+                Halo, saya Cinta Nur Aisyah,
+                siswa dari jurusan Rekayasa Perangkat
+                Lunak (RPL), kelas XI RPL 3.
+            </p>
+
+            <p>
+                 Di sekolah,Saya mempelajari HTML, CSS, JavaScript, PHP, dan MySQL 
+                untuk membangun website yang kreatif, interaktif, dan fungsional.
+            </p>
+        </div>
+
+
+
+<div class="col-5 text-center">
+    <img src="cinta4.jpeg"
+         class="img-fluid rounded shadow"
+         alt="Foto profil"
+         style="width: 100%; max-width: 150px; height: 180px; object-fit: cover;">
+</div>
+    </div>
+</section>
+
+<section id="menu">
+    <h2 class="text-center mb-4">Pelajaran Kompetensi RPL</h2>
+
+    <div class="row g-4">
+
+        <div class="col-12 col-md-4">
+            <div class="card h-100">
+                <img src="html.jpg" class="card-img-top" style="height: 180px; object-fit: contain;" alt="HTML">
+                <div class="card-body">
+                    <h5 class="card-title">HTML</h5>
+                    <p class="card-text">Mempelajari struktur dasar website.</p>
+                    <a href="https://www.w3schools.com/html/" class="btn btn-primary">Selengkapnya</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-12 col-md-4">
+            <div class="card h-100">
+                <img src="css.jpg" class="card-img-top" style="height: 180px; object-fit: contain;" alt="CSS">
+                <div class="card-body">
+                    <h5 class="card-title">CSS</h5>
+                    <p class="card-text">Mempelajari desain dan tampilan website.</p>
+                    <a href="https://www.w3schools.com/css/" class="btn btn-primary">Selengkapnya</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-12 col-md-4">
+            <div class="card h-100">
+                <img src="js.jpg" class="card-img-top" style="height: 180px; object-fit: contain;" alt="JavaScript">
+                <div class="card-body">
+                    <h5 class="card-title">JavaScript</h5>
+                    <p class="card-text">Mempelajari website interaktif.</p>
+                    <a href="https://www.w3schools.com/js/" class="btn btn-primary">Selengkapnya</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-12 col-md-4">
+            <div class="card h-100">
+                <img src="bootstrap.jpg" class="card-img-top" style="height: 180px; object-fit: contain;" alt="Bootstrap">
+                <div class="card-body">
+                    <h5 class="card-title">Bootstrap</h5>
+                    <p class="card-text">Mempelajari framework CSS responsif.</p>
+                    <a href="https://www.w3schools.com/bootstrap5/" class="btn btn-primary">Selengkapnya</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-12 col-md-4">
+            <div class="card h-100">
+                <img src="PHP.jpg" class="card-img-top" style="height: 180px; object-fit: contain;" alt="PHP">
+                <div class="card-body">
+                    <h5 class="card-title">PHP</h5>
+                    <p class="card-text">Mempelajari pemrograman website.</p>
+                    <a href="https://www.w3schools.com/php/" class="btn btn-primary">Selengkapnya</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-12 col-md-4">
+            <div class="card h-100">
+                <img src="mysql.jpg" class="card-img-top" style="height: 180px; object-fit: contain;" alt="MySQL">
+                <div class="card-body">
+                    <h5 class="card-title">MySQL</h5>
+                    <p class="card-text">Mempelajari pengelolaan database.</p>
+                    <a href="https://www.w3schools.com/mysql/" class="btn btn-primary">Selengkapnya</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+  <section id="kontak" class="container py-5">
+    <h2 class="text-center mb-4">Kontak Saya</h2>
+
+    <form onsubmit="event.preventDefault();
+        document.getElementById('notifikasi').classList.remove('d-none');
+        this.reset();">
+
+        <div class="mb-3">
+            <label class="form-label">Nama</label>
+            <input type="text" class="form-control"
+                   placeholder="Masukkan nama kamu"
+                   required>
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Email</label>
+            <input type="email" class="form-control"
+                   placeholder="Masukkan email kamu"
+                   required>
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Pesan</label>
+            <textarea class="form-control" rows="4"
+                      placeholder="Tuliskan pesan kamu"
+                      required></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-primary">
+            Kirim Pesan
+        </button>
+
+      <div id="notifikasi"
+             class="alert alert-success alert-dismissible fade show mt-3 d-none"
+             role="alert">
+
+            <h5 class="alert-heading">Pesan Berhasil Terkirim!</h5>
+            <p class="mb-0">
+                Terima kasih sudah menghubungi saya.
+            </p>
+
+            <button type="button" class="btn-close"
+                    onclick="document.getElementById('notifikasi').classList.add('d-none')"
+                    aria-label="Tutup"></button>
+        </div>
+
+    </form>
+</section>
+</main>
+  <footer class="bg-dark text-white text-center py-4">
+    <div class="container">
+
+        <h5>annisa putri Profile</h5>
+
+
+        <p>
+  Media Sosial:
+  <a href="https://www.instagram.com/4lvytaaa?stkn=MWlsYWY2c3hiYjI2aA=="
+     class="text-white"
+     target="_blank">
+    Instagram
+  </a>
+  |
+  <a href="https://www.tiktok.com/@cicintaa___?_r=1&_t=ZS-99uw1pbImqS"
+     class="text-white"
+     target="_blank">
+    TikTok
+  </a>
+</p>
+
+        <hr>
+
+        <p class="mb-0">
+            &copy; 2026 annisa putri XI RPL 3.
+        </p>
+
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
